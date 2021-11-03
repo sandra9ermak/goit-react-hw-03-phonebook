@@ -1,0 +1,37 @@
+.contactButton {
+  border-radius: 4px;
+  width: 60px;
+  height: 25px;
+  /* background-color: rgba(0, 0, 0, 0.733); */
+  background-color: rgba(77, 72, 72, 0.836);
+  border-color: transparent;
+  color: rgb(209, 200, 200);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  box-shadow: 1px 2px 2px 2px rgba(34, 60, 80, 0.53);
+}
+
+.contactItem {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(236, 232, 232);
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.spanName {
+  margin-right: 10px;
+}
+
+.spanNumber {
+  margin-right: 15px;
+}
